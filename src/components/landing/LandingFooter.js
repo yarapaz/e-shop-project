@@ -1,0 +1,52 @@
+function LandingFooter() {
+  return (
+    <footer>
+      <section>
+        <h2></h2>
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2></h2>
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2></h2>
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2></h2>
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  );
+}
+
+export default LandingFooter;
