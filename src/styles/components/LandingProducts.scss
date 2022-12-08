@@ -66,6 +66,11 @@
       height: 30px;
       position: absolute;
       top: 43%;
+      &:hover {
+        background-color: rgb(245, 136, 136);
+        transform: scale(1.5);
+        transition: transform 0.7s ease-in-out;
+      }
     }
   }
   &__box {
@@ -132,6 +137,11 @@
       position: absolute;
       top: 50%;
       left: 36.7%;
+      &:hover {
+        background-color: rgb(245, 136, 136);
+        transform: scale(1.5);
+        transition: transform 0.7s ease-in-out;
+      }
     }
     &__title--hoodies {
       color: white;
@@ -154,6 +164,11 @@
       position: absolute;
       top: 43%;
       left: 36.7%;
+      &:hover {
+        background-color: rgb(245, 136, 136);
+        transform: scale(1.5);
+        transition: transform 0.7s ease-in-out;
+      }
     }
   }
 }
