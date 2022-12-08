@@ -1,17 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import '../../styles/components/landing/LandingHeader.scss';
-import ulverflokkLogo from '../../images/ulverflokk_logo.png';
+import '../../styles/components/LandingHeader.scss';
 
-function LandingHeader() {
+function Header() {
   return (
     <header className='landing__header'>
-      <div className='landing__header__logo'>
-        {/* <img
-          src={ulverflokkLogo}
-          alt='Ulverflokk logo'
-          className='landing__header__logo--image'
-        /> */}
-      </div>
+      <div className='landing__header__logo'></div>
       <nav className='landing__header__menu'>
         <ul className='landing__header__list'>
           <li className='landing__header__list--item'>
@@ -56,4 +49,4 @@ function LandingHeader() {
   );
 }
 
-export default LandingHeader;
+export default Header;

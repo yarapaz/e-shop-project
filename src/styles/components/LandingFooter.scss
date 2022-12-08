@@ -1,0 +1,180 @@
+@import '../core/functions.scss';
+@import '../core/variables.scss';
+@import '../core/mixins.scss';
+
+.footer {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 180px;
+  background-color: rgb(29, 26, 26);
+  background-image: url('../../images/footer_background.png');
+  background-size: 380px;
+  background-repeat: no-repeat;
+  background-position-x: 112.5%;
+  background-position-y: 5px;
+  font-family: $secondary-font;
+  &__about_us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &__title {
+      font-size: rem(25);
+      color: white;
+      font-weight: 800;
+      position: absolute;
+      z-index: 1;
+      top: 12%;
+    }
+    &__box {
+      background-color: rgba(248, 75, 75, 0.8);
+      width: 103px;
+      height: 15px;
+      position: relative;
+      left: 50%;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    &__link {
+      text-decoration: none;
+      color: white;
+      font-size: rem(15);
+      cursor: pointer;
+      &:hover {
+        border-bottom: 4px solid red;
+      }
+    }
+  }
+  &__policies {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &__title {
+      font-size: rem(25);
+      color: white;
+      font-weight: 800;
+      position: absolute;
+      z-index: 1;
+      top: 12%;
+    }
+    &__box {
+      background-color: rgba(248, 75, 75, 0.8);
+      width: 100px;
+      height: 15px;
+      position: relative;
+      left: 33%;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    &__link {
+      text-decoration: none;
+      color: white;
+      font-size: rem(15);
+      cursor: pointer;
+      &:hover {
+        border-bottom: 4px solid red;
+      }
+    }
+  }
+  &__follow_us {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+    &__title {
+      font-size: rem(25);
+      color: white;
+      font-weight: 800;
+      position: absolute;
+      z-index: 1;
+      top: 12%;
+    }
+    &__box {
+      background-color: rgba(248, 75, 75, 0.8);
+      width: 96px;
+      height: 15px;
+      position: relative;
+      left: 27%;
+    }
+    &__list {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-left: 20px;
+    }
+    &__link {
+      color: white;
+      font-size: rem(15);
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  &__payment_methods {
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    &__title {
+      font-size: rem(25);
+      color: white;
+      font-weight: 800;
+      position: absolute;
+      z-index: 1;
+      top: 12%;
+    }
+    &__box {
+      background-color: rgba(248, 75, 75, 0.8);
+      width: 96px;
+      height: 15px;
+      position: relative;
+      left: 44%;
+      margin-top: 20px;
+    }
+    &__list {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+    }
+    &__link {
+      text-decoration: none;
+      color: white;
+      font-size: rem(15);
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+.fa-facebook-f {
+  font-size: rem(30);
+}
+
+.fa-instagram {
+  font-size: rem(34);
+}
+
+.fa-cc-visa {
+  font-size: rem(30);
+}
+
+.fa-cc-mastercard {
+  font-size: rem(30);
+}
+
+.fa-cc-paypal {
+  font-size: rem(30);
+}

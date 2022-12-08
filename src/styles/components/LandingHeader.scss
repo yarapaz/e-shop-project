@@ -1,11 +1,10 @@
-@import '../../core/functions.scss';
-@import '../../core/variables.scss';
-@import '../../core/mixins.scss';
+@import '../core/functions.scss';
+@import '../core/variables.scss';
+@import '../core/mixins.scss';
 
 .landing {
   &__header {
     width: 100vw;
-    background-color: rgb(253, 249, 245);
     height: 4vh;
     display: flex;
     justify-content: space-between;
@@ -19,7 +18,7 @@
       width: 60px;
       margin-left: 1%;
       margin-top: 0.2%;
-      background-image: url('../../../images/ulverflokk_logo.png');
+      background-image: url('../../images/ulverflokk_logo.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;

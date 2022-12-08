@@ -1,4 +1,4 @@
-function LandingMain() {
+function Main() {
   return (
     <main>
       <section className='hero'></section>
@@ -37,4 +37,4 @@ function LandingMain() {
   );
 }
 
-export default LandingMain;
+export default Main;

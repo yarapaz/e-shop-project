@@ -1,13 +1,13 @@
-import LandingFooter from './LandingFooter';
-import LandingHeader from './LandingHeader';
-import LandingMain from './LandingMain';
+import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
 
 function Landing() {
   return (
     <>
-      <LandingHeader />
-      <LandingMain />
-      <LandingFooter />
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
