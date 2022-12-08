@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2e882bed.css",
+    "main.js": "./static/js/main.68e25ad0.js",
+    "static/media/ulverflokk_logo.png": "./static/media/ulverflokk_logo.3c0cf8838a86ceb1de9d.png",
+    "static/media/footer_background.png": "./static/media/footer_background.a8c610e4783829c797eb.png",
+    "index.html": "./index.html",
+    "main.2e882bed.css.map": "./static/css/main.2e882bed.css.map",
+    "main.68e25ad0.js.map": "./static/js/main.68e25ad0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e882bed.css",
+    "static/js/main.68e25ad0.js"
+  ]
+}
