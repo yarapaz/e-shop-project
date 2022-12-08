@@ -1,17 +1,11 @@
+import Hero from './Hero';
+import Products from './Products';
+
 function Main() {
   return (
     <main>
-      <section className='hero'></section>
-      <section className='products'>
-        <nav>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </nav>
-      </section>
+      <Hero />
+      <Products />
       <section className='info1'>
         <article></article>
         <article>
