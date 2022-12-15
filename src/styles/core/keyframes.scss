@@ -6,3 +6,30 @@
     transform: scale(2);
   }
 }
+
+@keyframes slideInTop {
+  from {
+    top: -70%;
+  }
+  to {
+    top: -47%;
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    bottom: -5%;
+  }
+  to {
+    bottom: 18%;
+  }
+}
+
+@keyframes slideInBottomBox {
+  from {
+    bottom: -15%;
+  }
+  to {
+    bottom: 8.5%;
+  }
+}

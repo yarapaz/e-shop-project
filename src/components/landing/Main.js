@@ -1,18 +1,13 @@
 import Hero from './Hero';
 import Products from './Products';
+import WinterSpecials from './WinterSpecials';
 
 function Main() {
   return (
-    <main>
+    <main className='main'>
       <Hero />
       <Products />
-      <section className='info1'>
-        <article></article>
-        <article>
-          <h2></h2>
-          <p></p>
-        </article>
-      </section>
+      <WinterSpecials />
       <section className='info2'>
         <article>
           <h2></h2>

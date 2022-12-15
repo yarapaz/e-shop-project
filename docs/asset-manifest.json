@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.0845d5fd.css",
-    "main.js": "./static/js/main.c1009761.js",
+    "main.css": "./static/css/main.65b7760f.css",
+    "main.js": "./static/js/main.7412e243.js",
     "static/media/hispanic-couple-wearing-different-crewneck-sweatshirts-mockup-while-standing-against-an-old-door-a15532.png": "./static/media/hispanic-couple-wearing-different-crewneck-sweatshirts-mockup-while-standing-against-an-old-door-a15532.fe0380bf8605c6003fb0.png",
     "static/media/round-neck-t-shirt-mockup-featuring-a-man-sitting-against-a-city-view-m8913-r-el2.png": "./static/media/round-neck-t-shirt-mockup-featuring-a-man-sitting-against-a-city-view-m8913-r-el2.61fb075c7aa00bf19049.png",
     "static/media/hispanic-woman-wearing-a-crop-top-tee-mockup-and-a-plaid-shirt-at-night-a19419.png": "./static/media/hispanic-woman-wearing-a-crop-top-tee-mockup-and-a-plaid-shirt-at-night-a19419.6655a0d58f6815a34116.png",
     "static/media/mockup-of-a-serious-woman-wearing-a-customizable-pullover-hoodie-4982-el1.png": "./static/media/mockup-of-a-serious-woman-wearing-a-customizable-pullover-hoodie-4982-el1.df71d9c245c34640c730.png",
+    "static/media/hero_background.png": "./static/media/hero_background.4c56fdd0da008354aa37.png",
     "static/media/ulverflokk_logo.png": "./static/media/ulverflokk_logo.3c0cf8838a86ceb1de9d.png",
     "static/media/footer_background.png": "./static/media/footer_background.a8c610e4783829c797eb.png",
-    "static/media/hero_background.jpg": "./static/media/hero_background.b3c28246703914b0245d.jpg",
     "index.html": "./index.html",
-    "main.0845d5fd.css.map": "./static/css/main.0845d5fd.css.map",
-    "main.c1009761.js.map": "./static/js/main.c1009761.js.map"
+    "main.65b7760f.css.map": "./static/css/main.65b7760f.css.map",
+    "main.7412e243.js.map": "./static/js/main.7412e243.js.map"
   },
   "entrypoints": [
-    "static/css/main.0845d5fd.css",
-    "static/js/main.c1009761.js"
+    "static/css/main.65b7760f.css",
+    "static/js/main.7412e243.js"
   ]
 }
