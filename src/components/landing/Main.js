@@ -1,13 +1,13 @@
 import Hero from './Hero';
 import Products from './Products';
-import WinterSpecials from './WinterSpecials';
+import UncontrolledExample from './CarouselDemo';
 
 function Main() {
   return (
     <main className='main'>
       <Hero />
       <Products />
-      <WinterSpecials />
+      <UncontrolledExample />
       <section className='info2'>
         <article>
           <h2></h2>

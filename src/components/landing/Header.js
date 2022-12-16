@@ -8,30 +8,39 @@ function Header() {
       <nav className='landing__header__menu'>
         <ul className='landing__header__list'>
           <li className='landing__header__list--item'>
-            <NavLink to='/' className='landing__header__list--link'>
+            <NavLink to='/' className='landing__header__list--link link-dark'>
               Home
             </NavLink>
           </li>
           <li className='landing__header__list--item'>
-            <NavLink to='/hombre' className='landing__header__list--link'>
+            <NavLink
+              to='/hombre'
+              className='landing__header__list--link link-dark'
+            >
               Hombre
             </NavLink>
           </li>
           <li className='landing__header__list--item'>
-            <NavLink to='/mujer' className='landing__header__list--link'>
+            <NavLink
+              to='/mujer'
+              className='landing__header__list--link link-dark'
+            >
               Mujer
             </NavLink>
           </li>
           <li className='landing__header__list--item'>
             <NavLink
               to='/nuestro compromiso'
-              className='landing__header__list--link'
+              className='landing__header__list--link link-dark'
             >
               Nuestro compromiso
             </NavLink>
           </li>
           <li className='landing__header__list--item'>
-            <NavLink to='/contactanos' className='landing__header__list--link'>
+            <NavLink
+              to='/contactanos'
+              className='landing__header__list--link link-dark'
+            >
               Contáctanos
             </NavLink>
           </li>
@@ -39,10 +48,10 @@ function Header() {
       </nav>
       <section className='landing__header__shopping--cart'>
         <NavLink to='/favoritos'>
-          <i class='fa-regular fa-heart'></i>
+          <i className='fa-regular fa-heart'></i>
         </NavLink>
         <NavLink to='/cesta de la compra'>
-          <i class='fa-solid fa-bag-shopping'></i>
+          <i className='fa-solid fa-bag-shopping'></i>
         </NavLink>
       </section>
     </header>

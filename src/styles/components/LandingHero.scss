@@ -9,7 +9,7 @@
   background-image: url('../../images/hero_background.png');
   background-position: center center;
   background-size: 100%;
-  background-position-y: -20%;
+  background-position-y: -0.2%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row-reverse;
@@ -21,7 +21,8 @@
   font-family: $secondary-font;
   font-size: rem(80);
   padding-left: 40px;
-
+  position: relative;
+  top: 62px;
   &__text1 {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -46,7 +47,7 @@
     width: 50px;
     height: 275px;
     position: relative;
-    left: 21%;
+    left: 22%;
     animation: slideInBottomBox 1.5s linear forwards;
   }
 }

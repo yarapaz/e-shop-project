@@ -1,0 +1,53 @@
+.img {
+  width: 230px;
+  height: 300px;
+}
+
+.carousel-indicators {
+  position: relative;
+  top: 360px;
+}
+.carousel-indicators button {
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators button:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.carousel-indicators .active {
+  background-color: red;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: black;
+  height: 55vh;
+  &__images {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 30px;
+    gap: 30px;
+  }
+}
+.carousel.slide {
+  width: 80%;
+  height: 40vh;
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  left: 40px;
+}
+.carousel-control-next-icon {
+  position: relative;
+  right: 40px;
+  //para cambiar el estilo o color debo cambiar su backgroundimage
+}

@@ -9,12 +9,12 @@ function FooterFollowUs() {
         <ul className='footer__follow_us__list'>
           <li className='footer__follow_us__list--item'>
             <NavLink className='footer__follow_us__link'>
-              <i class='fa-brands fa-facebook-f'></i>
+              <i className='fa-brands fa-facebook-f'></i>
             </NavLink>
           </li>
           <li className='footer__follow_us__link'>
             <NavLink className='footer__follow_us__link'>
-              <i class='fa-brands fa-instagram'></i>
+              <i className='fa-brands fa-instagram'></i>
             </NavLink>
           </li>
         </ul>
