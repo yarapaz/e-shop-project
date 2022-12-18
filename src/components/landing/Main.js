@@ -8,8 +8,16 @@ function Main(props) {
       <Hero />
       <Products1 />
       <Products2
-        isClicked={props.isClicked}
-        setIsClicked={props.setIsClicked}
+        isHovered={props.isHovered}
+        setIsHovered={props.setIsHovered}
+        isSClicked={props.isSClicked}
+        setSIsClicked={props.setSIsClicked}
+        isMClicked={props.isMClicked}
+        setMIsClicked={props.setMIsClicked}
+        isLClicked={props.isLClicked}
+        setLIsClicked={props.setLIsClicked}
+        isXLClicked={props.isXLClicked}
+        setXLIsClicked={props.setXLIsClicked}
       />
       <section className='info2'>
         <article>
