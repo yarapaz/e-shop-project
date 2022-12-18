@@ -5,17 +5,15 @@
 .products {
   font-family: $secondary-font;
   display: grid;
-  position: relative;
-  top: 61px;
   &__menu {
-    background-color: rgb(29, 26, 26);
-    height: 74.5vh;
+    background-color: black;
   }
   &__list {
     display: grid;
     grid-template-columns: auto 500px auto;
     grid-template-rows: 700px;
     padding-left: 0;
+    margin-bottom: 0;
     &--item {
       display: flex;
       flex-direction: column;

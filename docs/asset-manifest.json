@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.65b7760f.css",
-    "main.js": "./static/js/main.7412e243.js",
+    "main.css": "./static/css/main.82bd682d.css",
+    "main.js": "./static/js/main.681479e7.js",
+    "static/media/carousel1.png": "./static/media/carousel1.7cdde1ac6b684d4593b6.png",
+    "static/media/carousel4.png": "./static/media/carousel4.2ba9cfbb970dd268a64f.png",
     "static/media/hispanic-couple-wearing-different-crewneck-sweatshirts-mockup-while-standing-against-an-old-door-a15532.png": "./static/media/hispanic-couple-wearing-different-crewneck-sweatshirts-mockup-while-standing-against-an-old-door-a15532.fe0380bf8605c6003fb0.png",
     "static/media/round-neck-t-shirt-mockup-featuring-a-man-sitting-against-a-city-view-m8913-r-el2.png": "./static/media/round-neck-t-shirt-mockup-featuring-a-man-sitting-against-a-city-view-m8913-r-el2.61fb075c7aa00bf19049.png",
     "static/media/hispanic-woman-wearing-a-crop-top-tee-mockup-and-a-plaid-shirt-at-night-a19419.png": "./static/media/hispanic-woman-wearing-a-crop-top-tee-mockup-and-a-plaid-shirt-at-night-a19419.6655a0d58f6815a34116.png",
+    "static/media/carousel3.png": "./static/media/carousel3.10459e52dca2456701e8.png",
+    "static/media/carousel2.png": "./static/media/carousel2.d80a1dbe35657f0ab6ee.png",
     "static/media/mockup-of-a-serious-woman-wearing-a-customizable-pullover-hoodie-4982-el1.png": "./static/media/mockup-of-a-serious-woman-wearing-a-customizable-pullover-hoodie-4982-el1.df71d9c245c34640c730.png",
     "static/media/hero_background.png": "./static/media/hero_background.4c56fdd0da008354aa37.png",
     "static/media/ulverflokk_logo.png": "./static/media/ulverflokk_logo.3c0cf8838a86ceb1de9d.png",
     "static/media/footer_background.png": "./static/media/footer_background.a8c610e4783829c797eb.png",
     "index.html": "./index.html",
-    "main.65b7760f.css.map": "./static/css/main.65b7760f.css.map",
-    "main.7412e243.js.map": "./static/js/main.7412e243.js.map"
+    "main.82bd682d.css.map": "./static/css/main.82bd682d.css.map",
+    "main.681479e7.js.map": "./static/js/main.681479e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.65b7760f.css",
-    "static/js/main.7412e243.js"
+    "static/css/main.82bd682d.css",
+    "static/js/main.681479e7.js"
   ]
 }
