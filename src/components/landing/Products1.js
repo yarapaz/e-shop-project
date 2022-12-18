@@ -1,4 +1,4 @@
-import '../../styles/components/LandingProducts.scss';
+import '../../styles/components/LandingProducts1.scss';
 import { NavLink } from 'react-router-dom';
 
 function Products() {

@@ -1,13 +1,16 @@
 import Hero from './Hero';
-import Products from './Products';
-import UncontrolledExample from './CarouselDemo';
+import Products1 from './Products1';
+import Products2 from './Products2';
 
-function Main() {
+function Main(props) {
   return (
     <main className='main'>
       <Hero />
-      <Products />
-      <UncontrolledExample />
+      <Products1 />
+      <Products2
+        isClicked={props.isClicked}
+        setIsClicked={props.setIsClicked}
+      />
       <section className='info2'>
         <article>
           <h2></h2>
