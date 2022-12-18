@@ -471,7 +471,7 @@ function Products2(props) {
           </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
-      <article>
+      <article className='more__article'>
         <NavLink className='more__link'>Ver más sudaderas</NavLink>
       </article>
     </section>
