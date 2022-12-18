@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.82bd682d.css",
+    "main.css": "./static/css/main.4793a9dd.css",
     "main.js": "./static/js/main.681479e7.js",
     "static/media/carousel1.png": "./static/media/carousel1.7cdde1ac6b684d4593b6.png",
     "static/media/carousel4.png": "./static/media/carousel4.2ba9cfbb970dd268a64f.png",
@@ -14,11 +14,11 @@
     "static/media/ulverflokk_logo.png": "./static/media/ulverflokk_logo.3c0cf8838a86ceb1de9d.png",
     "static/media/footer_background.png": "./static/media/footer_background.a8c610e4783829c797eb.png",
     "index.html": "./index.html",
-    "main.82bd682d.css.map": "./static/css/main.82bd682d.css.map",
+    "main.4793a9dd.css.map": "./static/css/main.4793a9dd.css.map",
     "main.681479e7.js.map": "./static/js/main.681479e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.82bd682d.css",
+    "static/css/main.4793a9dd.css",
     "static/js/main.681479e7.js"
   ]
 }
