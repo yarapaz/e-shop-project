@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d2ed49b7.css",
-    "main.js": "./static/js/main.ccd39da4.js",
+    "main.js": "./static/js/main.b1a42de1.js",
     "static/media/carousel1.png": "./static/media/carousel1.7cdde1ac6b684d4593b6.png",
     "static/media/carousel4.png": "./static/media/carousel4.2ba9cfbb970dd268a64f.png",
     "static/media/hispanic-couple-wearing-different-crewneck-sweatshirts-mockup-while-standing-against-an-old-door-a15532.png": "./static/media/hispanic-couple-wearing-different-crewneck-sweatshirts-mockup-while-standing-against-an-old-door-a15532.fe0380bf8605c6003fb0.png",
@@ -15,10 +15,10 @@
     "static/media/footer_background.png": "./static/media/footer_background.a8c610e4783829c797eb.png",
     "index.html": "./index.html",
     "main.d2ed49b7.css.map": "./static/css/main.d2ed49b7.css.map",
-    "main.ccd39da4.js.map": "./static/js/main.ccd39da4.js.map"
+    "main.b1a42de1.js.map": "./static/js/main.b1a42de1.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ed49b7.css",
-    "static/js/main.ccd39da4.js"
+    "static/js/main.b1a42de1.js"
   ]
 }
