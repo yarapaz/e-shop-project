@@ -13,6 +13,7 @@ function Products2(props) {
   const [isHovered4, setIsHovered4] = useState(false);
 
   const handleMouseOver = (ev) => {
+    console.log('hola');
     if (ev.target.id === '1') {
       props.setIsHovered(true);
       setIsHovered2(false);
@@ -35,29 +36,26 @@ function Products2(props) {
       setIsHovered4(true);
     }
   };
-  const handleMouseOut = (ev) => {
-    if (ev.target.id === '1') {
-      props.setIsHovered(true);
-      setIsHovered2(false);
-      setIsHovered3(false);
-      setIsHovered4(false);
-    } else if (ev.target.id === '2') {
-      props.setIsHovered(false);
-      setIsHovered2(true);
-      setIsHovered3(false);
-      setIsHovered4(false);
-    } else if (ev.target.id === '3') {
-      props.setIsHovered(false);
-      setIsHovered2(false);
-      setIsHovered3(true);
-      setIsHovered4(false);
-    } else if (ev.target.id === '4') {
-      props.setIsHovered(false);
-      setIsHovered2(false);
-      setIsHovered3(false);
-      setIsHovered4(true);
-    }
-  };
+  // const handleMouseOut = (ev) => {
+  //   if (ev.target.id === '1') {
+  //     props.setIsHovered(false);
+  //   } else if (ev.target.id === '2') {
+  //     props.setIsHovered(false);
+  //     setIsHovered2(false);
+  //     setIsHovered3(false);
+  //     setIsHovered4(false);
+  //   } else if (ev.target.id === '3') {
+  //     props.setIsHovered(false);
+  //     setIsHovered2(false);
+  //     setIsHovered3(false);
+  //     setIsHovered4(false);
+  //   } else if (ev.target.id === '4') {
+  //     props.setIsHovered(false);
+  //     setIsHovered2(false);
+  //     setIsHovered3(false);
+  //     setIsHovered4(false);
+  //   }
+  // };
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
@@ -101,16 +99,13 @@ function Products2(props) {
       <Carousel interval={null}>
         <Carousel.Item>
           <div className='carousel__images__box'>
-            <article
-              className='carousel__images__card'
-              onMouseOver={handleMouseOver}
-              onMouseOut={handleMouseOut}
-              id='1'
-            >
+            <article className='carousel__images__card'>
               <img
                 className='carousel__images__image'
                 src={image3}
                 alt='First slide'
+                onMouseOver={handleMouseOver}
+                id='1'
               />
               <article
                 className={
@@ -168,16 +163,13 @@ function Products2(props) {
                 32,90€ IVA incluído
               </p>
             </article>
-            <article
-              className='carousel__images__card'
-              onMouseOver={handleMouseOver}
-              onMouseOut={handleMouseOut}
-              id='2'
-            >
+            <article className='carousel__images__card'>
               <img
                 className='carousel__images__image'
                 src={image1}
                 alt='First slide'
+                onMouseOver={handleMouseOver}
+                id='2'
               />
               <article
                 className={isHovered2 ? 'carousel__images__info ' : 'collapsed'}
@@ -229,7 +221,6 @@ function Products2(props) {
               <p
                 className='carousel__images__image--name'
                 onMouseOver={handleMouseOver}
-                onMouseOut={handleMouseOut}
               >
                 Sudadera Lobo Strength
               </p>
@@ -237,16 +228,13 @@ function Products2(props) {
                 32,90€ IVA incluído
               </p>
             </article>
-            <article
-              className='carousel__images__card'
-              onMouseOver={handleMouseOver}
-              onMouseOut={handleMouseOut}
-              id='3'
-            >
+            <article className='carousel__images__card'>
               <img
                 className='carousel__images__image'
                 src={image2}
                 alt='First slide'
+                onMouseOver={handleMouseOver}
+                id='3'
               />
               <article
                 className={isHovered3 ? 'carousel__images__info ' : 'collapsed'}
@@ -300,16 +288,13 @@ function Products2(props) {
                 32,90€ IVA incluído
               </p>
             </article>
-            <article
-              className='carousel__images__card'
-              onMouseOver={handleMouseOver}
-              onMouseOut={handleMouseOut}
-              id='4'
-            >
+            <article className='carousel__images__card'>
               <img
                 className='carousel__images__image'
                 src={image4}
                 alt='First slide'
+                onMouseOver={handleMouseOver}
+                id='4'
               />
               <article
                 className={isHovered4 ? 'carousel__images__info ' : 'collapsed'}
