@@ -47,6 +47,10 @@
       flex-direction: column;
       cursor: pointer;
     }
+    &__btn {
+      background-color: rgba(248, 75, 75, 0.8);
+      border: none;
+    }
     &__image {
       width: 270px;
       height: 365px;

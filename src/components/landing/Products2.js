@@ -14,6 +14,9 @@ function Products2(props) {
     props.setIsClicked(false);
   };
 
+  const handleSubmit = (ev) => {
+    ev.preventDefault();
+  };
   return (
     <section className='carousel'>
       <article className='carousel__title'>
@@ -47,8 +50,10 @@ function Products2(props) {
                   <li className='carousel__images__info--list--item'>L</li>
                   <li className='carousel__images__info--list--item'>XL</li>
                 </ul>
-                <form action=''>
-                  <button type='button'>Añadir al carrito</button>
+                <form action='' onSubmit={handleSubmit}>
+                  <button className='carousel__images__btn' type='button'>
+                    Añadir al carrito
+                  </button>
                 </form>
               </article>
               <p className='carousel__images__image--name'>
